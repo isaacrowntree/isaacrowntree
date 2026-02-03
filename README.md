@@ -2,6 +2,8 @@
 
 Head of Tech at CamperMate. Open-source creator. Building developer tools in Go.
 
+Interested in the confluence of electronics and mechanical engineering (drones, eskates, and ebikes). Currently building CLIs to use with Claude.
+
 ## Featured Project
 
 ### [clickup-cli](https://github.com/triptechtravel/clickup-cli)
