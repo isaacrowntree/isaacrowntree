@@ -1,9 +1,17 @@
-- 👋 Hi, I’m @isaacrowntree
-- 👀 I’m interested in the confluence of electronics and mechanical engineering (drones, eskates, and ebikes)
-- 🌱 I’m building CLIs to use with Claude, mainly Clickup and Slack CLIs
-- 📫 How to reach me: visit https://isaacrowntree.com
+# Hi, I'm Isaac Rowntree
 
-<!---
-isaacrowntree/isaacrowntree is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Head of Tech at CamperMate. Open-source creator. Building developer tools in Go.
+
+## Featured Project
+
+### [clickup-cli](https://github.com/triptechtravel/clickup-cli)
+
+Command-line tool for ClickUp with git integration, GitHub linking, and AI agent support. Manage tasks, sprints, and comments without leaving the terminal.
+
+```sh
+brew install triptechtravel/tap/clickup
+```
+
+**30+ commands** | **Git integration** | **AI agent support** | **Fuzzy search** | **JSON output**
+
+[Documentation](https://triptechtravel.github.io/clickup-cli/) | [isaacrowntree.com](https://isaacrowntree.com)
