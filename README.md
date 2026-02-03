@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @isaacrowntree
 - 👀 I’m interested in the confluence of electronics and mechanical engineering (drones, eskates, and ebikes)
-- 🌱 I’m currently learning how to to use esp01 on my eskateboard as an LED light peripheral
-- 💞️ I’m looking to collaborate on arduino/esp01 projects
+- 🌱 I’m building CLIs to use with Claude, mainly Clickup and Slack CLIs
 - 📫 How to reach me: visit https://isaacrowntree.com
 
 <!---
