@@ -1,8 +1,8 @@
 # Hi, I'm Isaac Rowntree
 
-Head of Tech at CamperMate. Open-source creator. Building developer tools in Go.
+Head of Tech at CamperMate. Open-source creator. Building developer tools in Go and native React Native modules.
 
-Interested in the confluence of electronics and mechanical engineering (drones, eskates, and ebikes). Currently building CLIs to use with Claude.
+Interested in the confluence of electronics and mechanical engineering (drones, eskates, and ebikes). Currently building CLIs and native modules to use with Claude.
 
 ## Featured Projects
 
@@ -31,6 +31,20 @@ brew install triptechtravel/tap/clickup
 **30+ commands** | **Git integration** | **AI agent support** | **Fuzzy search** | **JSON output**
 
 [Documentation](https://triptechtravel.github.io/clickup-cli/) | [Repository](https://github.com/triptechtravel/clickup-cli)
+
+---
+
+### [react-native-nitro-unzip](https://github.com/isaacrowntree/react-native-nitro-unzip)
+
+High-performance ZIP operations for React Native, powered by Nitro Modules. Native-level compression and decompression with progress callbacks, cancellation, and password support — no bridge overhead.
+
+```sh
+npm install react-native-nitro-unzip react-native-nitro-modules
+```
+
+**~500 files/sec** | **Zero bridge overhead** | **Cancellable** | **AES-256 passwords** | **iOS & Android**
+
+[Documentation](https://isaacrowntree.github.io/react-native-nitro-unzip/) | [Repository](https://github.com/isaacrowntree/react-native-nitro-unzip) | [npm](https://www.npmjs.com/package/react-native-nitro-unzip)
 
 ---
 
