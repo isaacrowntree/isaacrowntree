@@ -77,7 +77,6 @@ npm install react-native-nitro-unzip react-native-nitro-modules
 | [clawdwatch](https://github.com/triptechtravel/clawdwatch) | Synthetic monitoring for Cloudflare Workers |
 | [cloudflare-worker-rollbar](https://github.com/triptechtravel/cloudflare-worker-rollbar) | Rollbar error tracking for Cloudflare Workers |
 | [color-grade-ai](https://github.com/isaacrowntree/color-grade-ai) | AI-powered .cube LUT generator for DaVinci Resolve |
-| [chrome-lambda](https://github.com/isaacrowntree/chrome-lambda) | Running headful Chrome on custom Lambda container |
 | [elixir-dojo](https://github.com/isaacrowntree/elixir-dojo) | Elixir learning dojo |
 | [tic-tac-toe-redux-dojo](https://github.com/isaacrowntree/tic-tac-toe-redux-dojo) | Redux introductory coding dojo |
 
