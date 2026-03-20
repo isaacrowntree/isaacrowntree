@@ -1,10 +1,10 @@
-# Hi, I'm Isaac Rowntree
+# Hi, I'm Isaac Rowntree 👋
 
 Head of Tech at CamperMate. Open-source creator. Building developer tools in Go, native React Native modules, and personal finance tools with Python.
 
 Interested in the confluence of electronics and mechanical engineering (drones, eskates, and ebikes). Currently building CLIs and native modules to use with Claude.
 
-## Featured Projects
+## 🔧 Featured Projects
 
 ### [clickup-cli](https://github.com/triptechtravel/clickup-cli) [![Stars](https://img.shields.io/github/stars/triptechtravel/clickup-cli)](https://github.com/triptechtravel/clickup-cli)
 
@@ -16,7 +16,7 @@ brew install triptechtravel/tap/clickup
 
 **30+ commands** | **Git integration** | **AI agent support** | **Fuzzy search** | **JSON output**
 
-[Documentation](https://triptechtravel.github.io/clickup-cli/) | [Repository](https://github.com/triptechtravel/clickup-cli)
+[📖 Documentation](https://triptechtravel.github.io/clickup-cli/) | [Repository](https://github.com/triptechtravel/clickup-cli)
 
 ---
 
@@ -30,55 +30,55 @@ pip install -e . && ledger init && ledger ingest
 
 **9 bank parsers** | **Auto-categorisation** | **ATO tax reports** | **Business splits** | **Net worth dashboard**
 
-[Documentation](https://isaacrowntree.github.io/ledger/) | [Repository](https://github.com/isaacrowntree/ledger)
+[📖 Documentation](https://isaacrowntree.github.io/ledger/) | [Repository](https://github.com/isaacrowntree/ledger)
 
 ---
 
 ### [boosted-board-led-lights](https://github.com/isaacrowntree/boosted-board-led-lights) [![Stars](https://img.shields.io/github/stars/isaacrowntree/boosted-board-led-lights)](https://github.com/isaacrowntree/boosted-board-led-lights)
 
-Arduino Uno project for adding LED underglow to a Boosted Board electric skateboard.
+🛹 Arduino Uno project for adding LED underglow to a Boosted Board electric skateboard.
 
 ---
 
 ### [slackbuzz](https://github.com/triptechtravel/slackbuzz-cli) [![Stars](https://img.shields.io/github/stars/triptechtravel/slackbuzz-cli)](https://github.com/triptechtravel/slackbuzz-cli)
 
-Command-line tool that bridges Slack, ClickUp, and GitHub for developers who live in the terminal. Manage your inbox, send messages, check cross-tool activity, and set status without opening a browser.
+💬 Command-line tool that bridges Slack, ClickUp, and GitHub for developers who live in the terminal.
 
 ```sh
 brew install triptechtravel/tap/slackbuzz
 ```
 
-[Documentation](https://triptechtravel.github.io/slackbuzz-cli/) | [Repository](https://github.com/triptechtravel/slackbuzz-cli)
+[📖 Documentation](https://triptechtravel.github.io/slackbuzz-cli/) | [Repository](https://github.com/triptechtravel/slackbuzz-cli)
 
 ---
 
 ### [claude-social-skills](https://github.com/isaacrowntree/claude-social-skills) [![Stars](https://img.shields.io/github/stars/isaacrowntree/claude-social-skills)](https://github.com/isaacrowntree/claude-social-skills)
 
-Claude Code plugins for social media posting, eBay listings, and email management.
+🤖 Claude Code plugins for social media posting, eBay listings, and email management.
 
 ---
 
 ### [react-native-nitro-unzip](https://github.com/isaacrowntree/react-native-nitro-unzip) [![Stars](https://img.shields.io/github/stars/isaacrowntree/react-native-nitro-unzip)](https://github.com/isaacrowntree/react-native-nitro-unzip)
 
-High-performance ZIP operations for React Native, powered by Nitro Modules. Native-level compression and decompression with progress callbacks, cancellation, and password support.
+⚡ High-performance ZIP operations for React Native, powered by Nitro Modules.
 
 ```sh
 npm install react-native-nitro-unzip react-native-nitro-modules
 ```
 
-[Documentation](https://isaacrowntree.github.io/react-native-nitro-unzip/) | [Repository](https://github.com/isaacrowntree/react-native-nitro-unzip) | [npm](https://www.npmjs.com/package/react-native-nitro-unzip)
+[📖 Documentation](https://isaacrowntree.github.io/react-native-nitro-unzip/) | [Repository](https://github.com/isaacrowntree/react-native-nitro-unzip) | [npm](https://www.npmjs.com/package/react-native-nitro-unzip)
 
 ---
 
-### Other notable repos
+### 📦 Other notable repos
 
 | Repo | Description |
 |------|-------------|
-| [clawdwatch](https://github.com/triptechtravel/clawdwatch) | Synthetic monitoring for Cloudflare Workers |
-| [cloudflare-worker-rollbar](https://github.com/triptechtravel/cloudflare-worker-rollbar) | Rollbar error tracking for Cloudflare Workers |
-| [color-grade-ai](https://github.com/isaacrowntree/color-grade-ai) | AI-powered .cube LUT generator for DaVinci Resolve |
-| [elixir-dojo](https://github.com/isaacrowntree/elixir-dojo) | Elixir learning dojo |
-| [tic-tac-toe-redux-dojo](https://github.com/isaacrowntree/tic-tac-toe-redux-dojo) | Redux introductory coding dojo |
+| [clawdwatch](https://github.com/triptechtravel/clawdwatch) | 🔍 Synthetic monitoring for Cloudflare Workers |
+| [cloudflare-worker-rollbar](https://github.com/triptechtravel/cloudflare-worker-rollbar) | 🐛 Rollbar error tracking for Cloudflare Workers |
+| [color-grade-ai](https://github.com/isaacrowntree/color-grade-ai) | 🎨 AI-powered .cube LUT generator for DaVinci Resolve |
+| [elixir-dojo](https://github.com/isaacrowntree/elixir-dojo) | 🧪 Elixir learning dojo |
+| [tic-tac-toe-redux-dojo](https://github.com/isaacrowntree/tic-tac-toe-redux-dojo) | ⭕ Redux introductory coding dojo |
 
 ---
 
