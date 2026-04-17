@@ -6,21 +6,19 @@ Interested in the confluence of electronics and mechanical engineering (drones, 
 
 ## 🚀 Featured Startup
 
-<a href="https://sessionhq.org">
-  <img src="https://sessionhq.org/icon-512.png" align="right" width="140" height="140" alt="SessionHQ">
-</a>
+<p>
+  <a href="https://sessionhq.org">
+    <img src="./sessionhq-wordmark.svg" width="360" alt="SessionHQ">
+  </a>
+</p>
 
-### [SessionHQ](https://sessionhq.org) — the modern check-in platform for class-based studios
-
-PIN pad. NFC tap. Real-time attendance. Pass management. Square payments. Multi-tenant with row-level security from day one. Built for dance studios, gyms, yoga & pilates, martial arts schools, and climbing gyms.
+**The modern check-in platform for class-based studios.** PIN pad. NFC tap. Real-time attendance. Pass management. Square payments. Multi-tenant with row-level security from day one. Built for dance studios, gyms, yoga & pilates, martial arts schools, and climbing gyms.
 
 **Next.js 16** · **React 19** · **Cloudflare Workers** · **Supabase** · **Square** · **Tailwind 4** · **Sentry** · **Playwright**
 
 🌟 Launching with founding partner [Havana on the Hastings](https://www.havanahastingsdance.com.au/) — Port Macquarie's Latin dance community (Cuban salsa, bachata, urban kiz, rueda).
 
 [🌐 sessionhq.org](https://sessionhq.org) · [Founding partner](https://www.havanahastingsdance.com.au/)
-
-<br clear="right">
 
 ---
 
@@ -94,7 +92,6 @@ npm install react-native-nitro-unzip react-native-nitro-modules
 
 | Repo | Description |
 |------|-------------|
-| [clawdwatch](https://github.com/triptechtravel/clawdwatch) | 🔍 Synthetic monitoring for Cloudflare Workers |
 | [cloudflare-worker-rollbar](https://github.com/triptechtravel/cloudflare-worker-rollbar) | 🐛 Rollbar error tracking for Cloudflare Workers |
 | [color-grade-ai](https://github.com/isaacrowntree/color-grade-ai) | 🎨 AI-powered .cube LUT generator for DaVinci Resolve |
 | [elixir-dojo](https://github.com/isaacrowntree/elixir-dojo) | 🧪 Elixir learning dojo |
