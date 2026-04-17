@@ -4,6 +4,26 @@ Head of Tech at CamperMate. Open-source creator. Building developer tools in Go,
 
 Interested in the confluence of electronics and mechanical engineering (drones, eskates, and ebikes). Currently building CLIs and native modules to use with Claude.
 
+## 🚀 Featured Startup
+
+<a href="https://sessionhq.org">
+  <img src="https://sessionhq.org/icon-512.png" align="right" width="140" height="140" alt="SessionHQ">
+</a>
+
+### [SessionHQ](https://sessionhq.org) — the modern check-in platform for class-based studios
+
+PIN pad. NFC tap. Real-time attendance. Pass management. Square payments. Multi-tenant with row-level security from day one. Built for dance studios, gyms, yoga & pilates, martial arts schools, and climbing gyms.
+
+**Next.js 16** · **React 19** · **Cloudflare Workers** · **Supabase** · **Square** · **Tailwind 4** · **Sentry** · **Playwright**
+
+🌟 Launching with founding partner [Havana on the Hastings](https://www.havanahastingsdance.com.au/) — Port Macquarie's Latin dance community (Cuban salsa, bachata, urban kiz, rueda).
+
+[🌐 sessionhq.org](https://sessionhq.org) · [Founding partner](https://www.havanahastingsdance.com.au/)
+
+<br clear="right">
+
+---
+
 ## 🔧 Featured Projects
 
 ### [clickup-cli](https://github.com/triptechtravel/clickup-cli) [![Stars](https://img.shields.io/github/stars/triptechtravel/clickup-cli)](https://github.com/triptechtravel/clickup-cli)
