@@ -1,8 +1,8 @@
 # Hi, I'm Isaac Rowntree 👋
 
-Head of Tech at CamperMate. Open-source creator. Building developer tools in Go, native React Native modules, and personal finance tools with Python.
+Head of Tech at CamperMate. Open-source creator. Building typed trading infra in **Rust**, developer CLIs in **Go**, native React Native modules, AI-assisted video tooling, and personal finance tools in **Python** — plus a handful of Claude Code plugins and MCP servers.
 
-Interested in the confluence of electronics and mechanical engineering (drones, eskates, and ebikes). Currently building CLIs and native modules to use with Claude.
+Interested in the confluence of electronics and mechanical engineering (drones, eskates, and ebikes). Currently obsessing over Rust + OpenAPI codegen, agentic developer tooling, and shipping SaaS that doesn't feel like a framework.
 
 ## 🚀 Featured Startup
 
@@ -23,6 +23,20 @@ Interested in the confluence of electronics and mechanical engineering (drones, 
 ---
 
 ## 🔧 Featured Projects
+
+### [bezant](https://github.com/isaacrowntree/bezant) [![Stars](https://img.shields.io/github/stars/isaacrowntree/bezant)](https://github.com/isaacrowntree/bezant)
+
+🦀 **Typed async Rust client for the Interactive Brokers Client Portal Web API** — with HTTP, CLI, MCP, and TypeScript surfaces all generated from the same vendored OpenAPI spec. Five ergonomic surfaces, one command to regenerate them all when IBKR revises the spec.
+
+```sh
+git clone https://github.com/isaacrowntree/bezant && cd bezant && docker compose up
+```
+
+**Rust + Tokio + Axum** | **155 paths / 1030 types** | **13-step spec normalisation** | **MCP server for Claude / Cursor** | **TypeScript client included**
+
+[📖 Documentation](https://isaacrowntree.github.io/bezant/) | [Repository](https://github.com/isaacrowntree/bezant) | [Launch post](https://zackdesign.biz/bezant/)
+
+---
 
 ### [clickup-cli](https://github.com/triptechtravel/clickup-cli) [![Stars](https://img.shields.io/github/stars/triptechtravel/clickup-cli)](https://github.com/triptechtravel/clickup-cli)
 
