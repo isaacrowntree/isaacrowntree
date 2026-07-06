@@ -38,6 +38,20 @@ git clone https://github.com/isaacrowntree/bezant && cd bezant && docker compose
 
 ---
 
+### [rampset](https://github.com/isaacrowntree/rampset) [![Stars](https://img.shields.io/github/stars/isaacrowntree/rampset)](https://github.com/isaacrowntree/rampset)
+
+🏋️ **Open-source, offline-first barbell strength log** — guided 5×5 & Madcow programs with automatic progression, per-side plate math, and PR tracking. A self-hostable PWA you actually own: reshape the engines, keep every rep on your device, no lock-in.
+
+```sh
+git clone https://github.com/isaacrowntree/rampset && cd rampset && npm install && npm run dev
+```
+
+**Next.js 16** | **React 19** | **Cloudflare Workers + Durable Objects** | **IndexedDB offline-first** | **MIT**
+
+[📖 Site & guide](https://isaacrowntree.github.io/rampset) | [Repository](https://github.com/isaacrowntree/rampset) | [Launch post](https://zackdesign.biz/rampset/)
+
+---
+
 ### [clickup-cli](https://github.com/triptechtravel/clickup-cli) [![Stars](https://img.shields.io/github/stars/triptechtravel/clickup-cli)](https://github.com/triptechtravel/clickup-cli)
 
 Command-line tool for ClickUp with git integration, GitHub linking, and AI agent support. Manage tasks, sprints, and comments without leaving the terminal.
