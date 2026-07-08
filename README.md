@@ -38,6 +38,20 @@ git clone https://github.com/isaacrowntree/bezant && cd bezant && docker compose
 
 ---
 
+### [sovereign-ibkr-fund](https://github.com/isaacrowntree/sovereign-ibkr-fund) [![Stars](https://img.shields.io/github/stars/isaacrowntree/sovereign-ibkr-fund)](https://github.com/isaacrowntree/sovereign-ibkr-fund)
+
+📈 **Autonomous, multi-agent portfolio fund for Interactive Brokers** — the companion to bezant. Nine deterministic TypeScript agents handle allocation (HRP / Black-Litterman), risk, tax, and execution, with validation-first trading, hard caps, and data-sanity gates. Runs standalone or under any scheduler; your real book stays in a gitignored file.
+
+```sh
+git clone https://github.com/isaacrowntree/sovereign-ibkr-fund && cd sovereign-ibkr-fund && npm install
+```
+
+**TypeScript** | **HRP / Black-Litterman / risk-parity** | **built on bezant** | **backtest engine** | **Apache/MIT**
+
+[Repository](https://github.com/isaacrowntree/sovereign-ibkr-fund) | [Launch post](https://zackdesign.biz/sovereign/)
+
+---
+
 ### [rampset](https://github.com/isaacrowntree/rampset) [![Stars](https://img.shields.io/github/stars/isaacrowntree/rampset)](https://github.com/isaacrowntree/rampset)
 
 🏋️ **Open-source, offline-first barbell strength log** — guided 5×5 & Madcow programs with automatic progression, per-side plate math, and PR tracking. A self-hostable PWA you actually own: reshape the engines, keep every rep on your device, no lock-in.
