@@ -24,6 +24,20 @@ Interested in the confluence of electronics and mechanical engineering (drones, 
 
 ## 🔧 Featured Projects
 
+### [linework](https://github.com/isaacrowntree/linework) [![Stars](https://img.shields.io/github/stars/isaacrowntree/linework)](https://github.com/isaacrowntree/linework)
+
+📐 **True-3D technical drawings in SVG — ~180 lines, zero dependencies.** Rotate → project → depth-sort → paint. Drop in a **glTF/OBJ mesh** and it extracts the feature edges into a rotatable, themeable, crawlable line drawing — no WebGL. Fills the empty niche between heavyweight 3D engines (hostile to linework) and dead pseudo-3D toys (no text). The whole page draws itself.
+
+```sh
+npm i linework
+```
+
+**TypeScript** | **Zero dependencies** | **glTF/OBJ import → feature edges** | **painter's-algorithm depth sort** | **server-side renderable** | **MIT**
+
+[🌐 Live demo](https://isaacrowntree.com/linework/) | [Repository](https://github.com/isaacrowntree/linework) | [Launch post](https://zackdesign.biz/linework/)
+
+---
+
 ### [bezant](https://github.com/isaacrowntree/bezant) [![Stars](https://img.shields.io/github/stars/isaacrowntree/bezant)](https://github.com/isaacrowntree/bezant)
 
 🦀 **Typed async Rust client for the Interactive Brokers Client Portal Web API** — with HTTP, CLI, MCP, and TypeScript surfaces all generated from the same vendored OpenAPI spec. Five ergonomic surfaces, one command to regenerate them all when IBKR revises the spec.
