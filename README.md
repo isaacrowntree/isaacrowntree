@@ -24,6 +24,16 @@ Interested in the confluence of electronics and mechanical engineering (drones, 
 
 ## 🔧 Featured Projects
 
+### [bike-part-planner](https://github.com/isaacrowntree/bike-part-planner) [![Stars](https://img.shields.io/github/stars/isaacrowntree/bike-part-planner)](https://github.com/isaacrowntree/bike-part-planner)
+
+🚲 **A test-driven, code-as-data engine for "will this part fit my bike?"** Rear shocks, forks, ebike motors & batteries, drivetrain, brakes, cockpit — deterministic fitment checks that return **pass / warn / block with reasons**, never a black-box yes/no. The interface/adapter problems (BB, freehub, rotor, headset) resolve to *native / needs-adapter / incompatible*. AI and guided measurement fill the frame data manufacturers don't publish.
+
+**TypeScript** | **Deterministic core, AI at the edges** | **Test-driven** | **Zero dependencies** | **MIT**
+
+[Repository](https://github.com/isaacrowntree/bike-part-planner) | [Launch post](https://zackdesign.biz/bike-part-planner/)
+
+---
+
 ### [linework](https://github.com/isaacrowntree/linework) [![Stars](https://img.shields.io/github/stars/isaacrowntree/linework)](https://github.com/isaacrowntree/linework)
 
 📐 **True-3D technical drawings in SVG — ~180 lines, zero dependencies.** Rotate → project → depth-sort → paint. Drop in a **glTF/OBJ mesh** and it extracts the feature edges into a rotatable, themeable, crawlable line drawing — no WebGL. Fills the empty niche between heavyweight 3D engines (hostile to linework) and dead pseudo-3D toys (no text). The whole page draws itself.
