@@ -1,168 +1,26 @@
-# Hi, I'm Isaac Rowntree 👋
+### Hi — I'm [Isaac Rowntree](https://isaacrowntree.com)
 
-Head of Tech at CamperMate. Open-source creator. Building typed trading infra in **Rust**, developer CLIs in **Go**, native React Native modules, AI-assisted video tooling, and personal finance tools in **Python** — plus a handful of Claude Code plugins and MCP servers.
+**Head of Tech · TripTech / CamperMate · THL** (Sydney). I build agent-friendly CLIs, high-performance React Native native modules, and typed trading infra — then put the story on [isaacrowntree.com](https://isaacrowntree.com).
 
-Interested in the confluence of electronics and mechanical engineering (drones, eskates, and ebikes). Currently obsessing over Rust + OpenAPI codegen, agentic developer tooling, and shipping SaaS that doesn't feel like a framework.
-
-## 🚀 Featured Startup
-
-<p>
-  <a href="https://sessionhq.org">
-    <img src="./sessionhq-wordmark.svg" width="360" alt="SessionHQ">
-  </a>
-</p>
-
-**The modern check-in platform for class-based studios.** PIN pad. NFC tap. Real-time attendance. Pass management. Square payments. Multi-tenant with row-level security from day one. Built for dance studios, gyms, yoga & pilates, martial arts schools, and climbing gyms.
-
-**Next.js 16** · **React 19** · **Cloudflare Workers** · **Supabase** · **Square** · **Tailwind 4** · **Sentry** · **Playwright**
-
-🌟 Launching with founding partner [Havana on the Hastings](https://www.havanahastingsdance.com.au/) — Port Macquarie's Latin dance community (Cuban salsa, bachata, urban kiz, rueda).
-
-[🌐 sessionhq.org](https://sessionhq.org) · [Founding partner](https://www.havanahastingsdance.com.au/)
+[X @tikwanleep](https://x.com/tikwanleep) · [Zack Design](https://zackdesign.biz) · [SessionHQ](https://sessionhq.org)
 
 ---
 
-## 🔧 Featured Projects
+### What I'm shipping
 
-### [bike-part-planner](https://github.com/isaacrowntree/bike-part-planner) [![Stars](https://img.shields.io/github/stars/isaacrowntree/bike-part-planner)](https://github.com/isaacrowntree/bike-part-planner)
+| | |
+|---|---|
+| **[clickup-cli](https://github.com/triptechtravel/clickup-cli)** | ClickUp from the terminal — git branch → task, link PRs, `--json` for agents. `brew install triptechtravel/tap/clickup` |
+| **[slackbuzz-cli](https://github.com/triptechtravel/slackbuzz-cli)** | Slack inbox / search / status without leaving the shell. `brew install triptechtravel/tap/slackbuzz` |
+| **[react-native-nitro-unzip](https://github.com/isaacrowntree/react-native-nitro-unzip)** | Nitro/JSI ZIP for RN — ~10k files/sec, AES-256, transactional extract. [npm](https://www.npmjs.com/package/react-native-nitro-unzip) · [docs](https://isaacrowntree.github.io/react-native-nitro-unzip/) |
+| **[bezant](https://github.com/isaacrowntree/bezant)** | IBKR Client Portal API → Rust + HTTP sidecar + CLI + MCP + TypeScript from one OpenAPI spec. [docs](https://isaacrowntree.github.io/bezant/) |
+| **[color-grade-ai](https://github.com/isaacrowntree/color-grade-ai)** | AI-assisted `.cube` LUT generator for Resolve / Premiere. [site](https://isaacrowntree.github.io/color-grade-ai/) |
+| **[linework](https://github.com/isaacrowntree/linework)** | True-3D technical drawings in SVG (~180 lines, zero deps). [demo](https://isaacrowntree.com/linework/) |
 
-🚲 **A test-driven, code-as-data engine for "will this part fit my bike?"** Rear shocks, forks, ebike motors & batteries, drivetrain, brakes, cockpit — deterministic fitment checks that return **pass / warn / block with reasons**, never a black-box yes/no. The interface/adapter problems (BB, freehub, rotor, headset) resolve to *native / needs-adapter / incompatible*. AI and guided measurement fill the frame data manufacturers don't publish.
-
-**TypeScript** | **Deterministic core, AI at the edges** | **Test-driven** | **Zero dependencies** | **MIT**
-
-[Repository](https://github.com/isaacrowntree/bike-part-planner) | [Launch post](https://zackdesign.biz/bike-part-planner/)
-
----
-
-### [linework](https://github.com/isaacrowntree/linework) [![Stars](https://img.shields.io/github/stars/isaacrowntree/linework)](https://github.com/isaacrowntree/linework)
-
-📐 **True-3D technical drawings in SVG — ~180 lines, zero dependencies.** Rotate → project → depth-sort → paint. Drop in a **glTF/OBJ mesh** and it extracts the feature edges into a rotatable, themeable, crawlable line drawing — no WebGL. Fills the empty niche between heavyweight 3D engines (hostile to linework) and dead pseudo-3D toys (no text). The whole page draws itself.
-
-```sh
-npm i linework
-```
-
-**TypeScript** | **Zero dependencies** | **glTF/OBJ import → feature edges** | **painter's-algorithm depth sort** | **server-side renderable** | **MIT**
-
-[🌐 Live demo](https://isaacrowntree.com/linework/) | [Repository](https://github.com/isaacrowntree/linework) | [Launch post](https://zackdesign.biz/linework/)
+Also: [ledger](https://github.com/isaacrowntree/ledger) (AU personal-finance ETL), [rampset](https://github.com/isaacrowntree/rampset) (offline barbell log), [durable-sync](https://github.com/isaacrowntree/durable-sync), [claude-social-skills](https://github.com/isaacrowntree/claude-social-skills).
 
 ---
 
-### [bezant](https://github.com/isaacrowntree/bezant) [![Stars](https://img.shields.io/github/stars/isaacrowntree/bezant)](https://github.com/isaacrowntree/bezant)
+### Contributions
 
-🦀 **Typed async Rust client for the Interactive Brokers Client Portal Web API** — with HTTP, CLI, MCP, and TypeScript surfaces all generated from the same vendored OpenAPI spec. Five ergonomic surfaces, one command to regenerate them all when IBKR revises the spec.
-
-```sh
-git clone https://github.com/isaacrowntree/bezant && cd bezant && docker compose up
-```
-
-**Rust + Tokio + Axum** | **155 paths / 1030 types** | **13-step spec normalisation** | **MCP server for Claude / Cursor** | **TypeScript client included**
-
-[📖 Documentation](https://isaacrowntree.github.io/bezant/) | [Repository](https://github.com/isaacrowntree/bezant) | [Launch post](https://zackdesign.biz/bezant/)
-
----
-
-### [sovereign-ibkr-fund](https://github.com/isaacrowntree/sovereign-ibkr-fund) [![Stars](https://img.shields.io/github/stars/isaacrowntree/sovereign-ibkr-fund)](https://github.com/isaacrowntree/sovereign-ibkr-fund)
-
-📈 **Autonomous, multi-agent portfolio fund for Interactive Brokers** — the companion to bezant. Nine deterministic TypeScript agents handle allocation (HRP / Black-Litterman), risk, tax, and execution, with validation-first trading, hard caps, and data-sanity gates. Runs standalone or under any scheduler; your real book stays in a gitignored file.
-
-```sh
-git clone https://github.com/isaacrowntree/sovereign-ibkr-fund && cd sovereign-ibkr-fund && npm install
-```
-
-**TypeScript** | **HRP / Black-Litterman / risk-parity** | **built on bezant** | **backtest engine** | **Apache/MIT**
-
-[Repository](https://github.com/isaacrowntree/sovereign-ibkr-fund) | [Launch post](https://zackdesign.biz/sovereign/)
-
----
-
-### [rampset](https://github.com/isaacrowntree/rampset) [![Stars](https://img.shields.io/github/stars/isaacrowntree/rampset)](https://github.com/isaacrowntree/rampset)
-
-🏋️ **Open-source, offline-first barbell strength log** — guided 5×5 & Madcow programs with automatic progression, per-side plate math, and PR tracking. A self-hostable PWA you actually own: reshape the engines, keep every rep on your device, no lock-in.
-
-```sh
-git clone https://github.com/isaacrowntree/rampset && cd rampset && npm install && npm run dev
-```
-
-**Next.js 16** | **React 19** | **Cloudflare Workers + Durable Objects** | **IndexedDB offline-first** | **MIT**
-
-[📖 Site & guide](https://isaacrowntree.github.io/rampset) | [Repository](https://github.com/isaacrowntree/rampset) | [Launch post](https://zackdesign.biz/rampset/)
-
----
-
-### [clickup-cli](https://github.com/triptechtravel/clickup-cli) [![Stars](https://img.shields.io/github/stars/triptechtravel/clickup-cli)](https://github.com/triptechtravel/clickup-cli)
-
-Command-line tool for ClickUp with git integration, GitHub linking, and AI agent support. Manage tasks, sprints, and comments without leaving the terminal.
-
-```sh
-brew install triptechtravel/tap/clickup
-```
-
-**30+ commands** | **Git integration** | **AI agent support** | **Fuzzy search** | **JSON output**
-
-[📖 Documentation](https://triptechtravel.github.io/clickup-cli/) | [Repository](https://github.com/triptechtravel/clickup-cli)
-
----
-
-### [ledger](https://github.com/isaacrowntree/ledger)
-
-Personal finance ETL + dashboard for Australian bank statements and ATO tax returns. Ingests PDFs and CSVs from 6+ banks, auto-categorises transactions, computes business splits, and generates ATO-ready tax reports — all local-first with SQLite.
-
-```sh
-pip install -e . && ledger init && ledger ingest
-```
-
-**9 bank parsers** | **Auto-categorisation** | **ATO tax reports** | **Business splits** | **Net worth dashboard**
-
-[📖 Documentation](https://isaacrowntree.github.io/ledger/) | [Repository](https://github.com/isaacrowntree/ledger)
-
----
-
-### [boosted-board-led-lights](https://github.com/isaacrowntree/boosted-board-led-lights) [![Stars](https://img.shields.io/github/stars/isaacrowntree/boosted-board-led-lights)](https://github.com/isaacrowntree/boosted-board-led-lights)
-
-🛹 Arduino Uno project for adding LED underglow to a Boosted Board electric skateboard.
-
----
-
-### [slackbuzz](https://github.com/triptechtravel/slackbuzz-cli) [![Stars](https://img.shields.io/github/stars/triptechtravel/slackbuzz-cli)](https://github.com/triptechtravel/slackbuzz-cli)
-
-💬 Command-line tool that bridges Slack, ClickUp, and GitHub for developers who live in the terminal.
-
-```sh
-brew install triptechtravel/tap/slackbuzz
-```
-
-[📖 Documentation](https://triptechtravel.github.io/slackbuzz-cli/) | [Repository](https://github.com/triptechtravel/slackbuzz-cli)
-
----
-
-### [claude-social-skills](https://github.com/isaacrowntree/claude-social-skills) [![Stars](https://img.shields.io/github/stars/isaacrowntree/claude-social-skills)](https://github.com/isaacrowntree/claude-social-skills)
-
-🤖 Claude Code plugins for social media posting, eBay listings, and email management.
-
----
-
-### [react-native-nitro-unzip](https://github.com/isaacrowntree/react-native-nitro-unzip) [![Stars](https://img.shields.io/github/stars/isaacrowntree/react-native-nitro-unzip)](https://github.com/isaacrowntree/react-native-nitro-unzip)
-
-⚡ High-performance ZIP operations for React Native, powered by Nitro Modules.
-
-```sh
-npm install react-native-nitro-unzip react-native-nitro-modules
-```
-
-[📖 Documentation](https://isaacrowntree.github.io/react-native-nitro-unzip/) | [Repository](https://github.com/isaacrowntree/react-native-nitro-unzip) | [npm](https://www.npmjs.com/package/react-native-nitro-unzip)
-
----
-
-### 📦 Other notable repos
-
-| Repo | Description |
-|------|-------------|
-| [cloudflare-worker-rollbar](https://github.com/triptechtravel/cloudflare-worker-rollbar) | 🐛 Rollbar error tracking for Cloudflare Workers |
-| [color-grade-ai](https://github.com/isaacrowntree/color-grade-ai) | 🎨 AI-powered .cube LUT generator for DaVinci Resolve |
-| [elixir-dojo](https://github.com/isaacrowntree/elixir-dojo) | 🧪 Elixir learning dojo |
-| [tic-tac-toe-redux-dojo](https://github.com/isaacrowntree/tic-tac-toe-redux-dojo) | ⭕ Redux introductory coding dojo |
-
----
-
-[isaacrowntree.com](https://isaacrowntree.com)
+Recent upstream work includes [ableton-mcp](https://github.com/ahujasid/ableton-mcp/pull/78) (merged), [expo-open-ota / xprem](https://github.com/mercuretechnologies/xprem) (adopted), plus open PRs on react-native-paper and react-native-nitro-toast. Full list on [isaacrowntree.com](https://isaacrowntree.com).
