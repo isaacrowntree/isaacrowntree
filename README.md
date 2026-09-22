@@ -4,6 +4,8 @@
 
 [X @tikwanleep](https://x.com/tikwanleep) · [Zack Design](https://zackdesign.biz) · [SessionHQ](https://sessionhq.org)
 
+**Consulting:** a small number of fixed-scope engagements for apps that have to hold up in production — audits, rescue sprints, test harnesses, fractional lead — across React Native, native Swift/Kotlin and offline-first web. Details and pricing at [zackdesign.biz/app-consultancy](https://zackdesign.biz/app-consultancy/).
+
 ---
 
 ### What I'm shipping
